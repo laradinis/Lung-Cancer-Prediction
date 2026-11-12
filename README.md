@@ -16,8 +16,26 @@ The work involves exploring medical imaging datasets, processing CT scans and in
 
 **Image Processing:** Preparation and processing of CT images and associated nodule annotations.
 
-**Radiomics Feature Extraction:** Investigation of quantitative features extracted from medical images to characterize lung nodules.
+**Radiomics Feature Extraction:** Extraction of quantitative features from medical images to characterize lung nodules.
 
-**Feature Analysis:** Exploration of extracted features to identify relevant information for predictive modeling.
+**Feature Analysis:** Analysis of extracted features to identify relevant information for predictive modeling.
 
-**Machine Learning:**
+**Machine Learning:** Application of machine learning techniques for lung nodule classification and lung cancer prediction.
+
+## Datasets
+
+- **LIDC-IDRI:** A publicly available lung imaging dataset containing CT scans and nodule annotations, including segmentation masks.
+- **LNDb:** A lung nodule dataset containing CT imaging data and nodule annotations, including centroid-based localization.
+
+These datasets provide different annotation formats and were used to explore medical image analysis and radiomics workflows.
+
+## Technologies & Tools
+
+- Python
+- PyRadiomics
+- NumPy
+- Medical Image Processing
+- Radiomics
+- Machine Learning
+- CT Imaging
+- Predictive Modeling
